@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15" version="29.2.3">
+  <diagram name="Layered Portfolio Workflow" id="egLa18SnHYGe8wa6fLCK">
+    <mxGraphModel dx="1351" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lc5VSL1EMZia0_ZFd3nJ-1" parent="1" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Data Collection Layer" vertex="1">
+          <mxGeometry height="60" width="200" x="400" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lc5VSL1EMZia0_ZFd3nJ-2" parent="1" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Preprocessing + Features" vertex="1">
+          <mxGeometry height="60" width="200" x="400" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="lc5VSL1EMZia0_ZFd3nJ-3" parent="1" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Machine Learning Model Layer&#xa;RF | XGBoost | Neural Network" vertex="1">
+          <mxGeometry height="80" width="400" x="300" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="lc5VSL1EMZia0_ZFd3nJ-4" parent="1" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Return Predictions + Risk Measures" vertex="1">
+          <mxGeometry height="60" width="400" x="300" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="lc5VSL1EMZia0_ZFd3nJ-5" parent="1" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Human-in-the-Loop Stage" vertex="1">
+          <mxGeometry height="60" width="300" x="350" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="lc5VSL1EMZia0_ZFd3nJ-6" parent="1" style="rounded=1;fillColor=#f5f5f5;strokeColor=#999999;" value="GA Portfolio Optimizer" vertex="1">
+          <mxGeometry height="60" width="300" x="350" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="lc5VSL1EMZia0_ZFd3nJ-7" parent="1" style="rounded=1;fillColor=#ffe6cc;strokeColor=#e69138;" value="Final Portfolio" vertex="1">
+          <mxGeometry height="60" width="300" x="350" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="lc5VSL1EMZia0_ZFd3nJ-8" edge="1" parent="1" source="lc5VSL1EMZia0_ZFd3nJ-1" style="edgeStyle=elbowEdgeStyle;rounded=0;strokeColor=#000000;endArrow=block;" target="lc5VSL1EMZia0_ZFd3nJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lc5VSL1EMZia0_ZFd3nJ-9" edge="1" parent="1" source="lc5VSL1EMZia0_ZFd3nJ-2" style="edgeStyle=elbowEdgeStyle;rounded=0;strokeColor=#000000;endArrow=block;" target="lc5VSL1EMZia0_ZFd3nJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lc5VSL1EMZia0_ZFd3nJ-10" edge="1" parent="1" source="lc5VSL1EMZia0_ZFd3nJ-3" style="edgeStyle=elbowEdgeStyle;rounded=0;strokeColor=#000000;endArrow=block;" target="lc5VSL1EMZia0_ZFd3nJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lc5VSL1EMZia0_ZFd3nJ-11" edge="1" parent="1" source="lc5VSL1EMZia0_ZFd3nJ-4" style="edgeStyle=elbowEdgeStyle;rounded=0;strokeColor=#000000;endArrow=block;" target="lc5VSL1EMZia0_ZFd3nJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lc5VSL1EMZia0_ZFd3nJ-12" edge="1" parent="1" source="lc5VSL1EMZia0_ZFd3nJ-5" style="edgeStyle=elbowEdgeStyle;rounded=0;strokeColor=#000000;endArrow=block;" target="lc5VSL1EMZia0_ZFd3nJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lc5VSL1EMZia0_ZFd3nJ-13" edge="1" parent="1" source="lc5VSL1EMZia0_ZFd3nJ-6" style="edgeStyle=elbowEdgeStyle;rounded=0;strokeColor=#000000;endArrow=block;" target="lc5VSL1EMZia0_ZFd3nJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
